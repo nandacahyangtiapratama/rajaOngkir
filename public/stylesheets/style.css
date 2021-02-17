@@ -1,8 +1,24 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #eee;
+  font-family: monospace;
+  font-size: 14px;
+  margin: auto;
+  width: 600px;
+  padding-top: 20px;
 }
 
-a {
-  color: #00B7FF;
+table {
+  background-color: #fff;
+  font-family: monospace;
+  font-size: 14px;
+  width: 100%;
+}
+
+select, input[type="number"] {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
 }
